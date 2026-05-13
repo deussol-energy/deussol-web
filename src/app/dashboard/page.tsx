@@ -1,6 +1,9 @@
+import { AppNav } from "@/components/AppNav"
+
 export default function DashboardPage() {
   return (
     <main className="min-h-screen bg-black px-6 py-10 text-white">
+      <AppNav />
       <div className="mx-auto max-w-7xl">
         <p className="text-sm text-white/50">DeusSol Platform</p>
         <h1 className="mt-2 text-4xl font-semibold tracking-tight">

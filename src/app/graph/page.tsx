@@ -6,6 +6,7 @@ import ReactFlow, {
   MiniMap,
 } from "reactflow"
 import "reactflow/dist/style.css"
+import { AppNav } from "@/components/AppNav"
 
 const nodes = [
   {
@@ -86,6 +87,7 @@ const edges = [
 export default function GraphPage() {
   return (
     <main className="h-screen bg-black text-white">
+      <AppNav />
       <div className="absolute left-6 top-6 z-10">
         <p className="text-sm text-white/50">
           DeusSol Platform

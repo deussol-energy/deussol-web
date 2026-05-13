@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { AppNav } from "@/components/AppNav"
 
 type ExtractionResult = {
   supplier: string
@@ -35,6 +36,7 @@ export default function UploadPage() {
 
   return (
     <main className="min-h-screen bg-black px-6 py-10 text-white">
+      <AppNav />
       <div className="mx-auto max-w-5xl">
         <p className="text-sm text-white/50">DeusSol Platform</p>
 
