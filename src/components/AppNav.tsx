@@ -13,17 +13,20 @@ export function AppNav() {
         </Link>
 
         <div className="hidden gap-6 text-sm text-white/60 sm:flex">
+          <Link href="/#problem" className="hover:text-white">
+            Problem
+          </Link>
+          <Link href="/#flow" className="hover:text-white">
+            Flow
+          </Link>
+          <Link href="/#trace" className="hover:text-white">
+            Graph
+          </Link>
+          <Link href="/#market" className="hover:text-white">
+            Market
+          </Link>
           <Link href="/dashboard" className="hover:text-white">
             Dashboard
-          </Link>
-          <Link href="/marketplace" className="hover:text-white">
-            Marketplace
-          </Link>
-          <Link href="/upload" className="hover:text-white">
-            Upload
-          </Link>
-          <Link href="/graph" className="hover:text-white">
-            Graph
           </Link>
         </div>
 
